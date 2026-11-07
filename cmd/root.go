@@ -8,18 +8,18 @@ import (
 	"os"
 	"time"
 
-	"github.com/imythu/dpull/internal/app"
-	"github.com/imythu/dpull/internal/cache"
-	"github.com/imythu/dpull/internal/completion"
-	"github.com/imythu/dpull/internal/crane"
-	"github.com/imythu/dpull/internal/docker"
-	"github.com/imythu/dpull/internal/logger"
-	"github.com/imythu/dpull/internal/proxy"
-	"github.com/imythu/dpull/internal/runner"
+	"github.com/aidever/dpull/internal/app"
+	"github.com/aidever/dpull/internal/cache"
+	"github.com/aidever/dpull/internal/completion"
+	"github.com/aidever/dpull/internal/crane"
+	"github.com/aidever/dpull/internal/docker"
+	"github.com/aidever/dpull/internal/logger"
+	"github.com/aidever/dpull/internal/proxy"
+	"github.com/aidever/dpull/internal/runner"
 	"github.com/spf13/cobra"
 )
 
-// Version is set at build time with -ldflags "-X github.com/imythu/dpull/cmd.Version=...".
+// Version is set at build time with -ldflags "-X github.com/aidever/dpull/cmd.Version=...".
 var Version = "dev"
 
 func Execute(ctx context.Context) int {

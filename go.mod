@@ -1,4 +1,4 @@
-module github.com/imythu/dpull
+module github.com/aidever/dpull
 
 go 1.24.0
 

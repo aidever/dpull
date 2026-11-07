@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/imythu/dpull/internal/cache"
-	"github.com/imythu/dpull/internal/crane"
-	"github.com/imythu/dpull/internal/docker"
-	"github.com/imythu/dpull/internal/logger"
-	"github.com/imythu/dpull/internal/runner"
+	"github.com/aidever/dpull/internal/cache"
+	"github.com/aidever/dpull/internal/crane"
+	"github.com/aidever/dpull/internal/docker"
+	"github.com/aidever/dpull/internal/logger"
+	"github.com/aidever/dpull/internal/runner"
 )
 
 type selectiveRunner struct {

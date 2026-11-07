@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/imythu/dpull/internal/runner"
+	"github.com/aidever/dpull/internal/runner"
 )
 
 type Client struct {

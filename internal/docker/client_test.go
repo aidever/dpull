@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/imythu/dpull/internal/runner"
+	"github.com/aidever/dpull/internal/runner"
 )
 
 type recordingRunner struct {

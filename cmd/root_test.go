@@ -11,13 +11,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/imythu/dpull/internal/app"
-	"github.com/imythu/dpull/internal/cache"
-	"github.com/imythu/dpull/internal/crane"
-	"github.com/imythu/dpull/internal/docker"
-	"github.com/imythu/dpull/internal/logger"
-	"github.com/imythu/dpull/internal/proxy"
-	"github.com/imythu/dpull/internal/runner"
+	"github.com/aidever/dpull/internal/app"
+	"github.com/aidever/dpull/internal/cache"
+	"github.com/aidever/dpull/internal/crane"
+	"github.com/aidever/dpull/internal/docker"
+	"github.com/aidever/dpull/internal/logger"
+	"github.com/aidever/dpull/internal/proxy"
+	"github.com/aidever/dpull/internal/runner"
 )
 
 type fakeRunner struct {

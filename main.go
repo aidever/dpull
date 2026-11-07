@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/imythu/dpull/cmd"
+	"github.com/aidever/dpull/cmd"
 )
 
 func main() {

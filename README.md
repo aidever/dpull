@@ -1,6 +1,6 @@
 # dpull
 
-[![Beta Release](https://github.com/imythu/dpull/actions/workflows/beta-release.yml/badge.svg)](https://github.com/imythu/dpull/actions/workflows/beta-release.yml)
+[![Beta Release](https://github.com/aidever/dpull/actions/workflows/beta-release.yml/badge.svg)](https://github.com/aidever/dpull/actions/workflows/beta-release.yml)
 
 `dpull` 是一个面向代理网络、Compose 项目和重复部署场景的 `docker pull` 增强替代工具。它使用
 内置的 [`crane`](https://github.com/google/go-containerregistry/tree/main/cmd/crane) 库下载镜像归档，
@@ -64,14 +64,14 @@ dpull 并不试图替代 Docker 或 crane。它的优势恰恰在于把二者已
 可用 `--platform` 指定；无法连接 Docker 时退回 `linux/<本机架构>`。
 Compose 启动功能需要 Docker Compose v2。
 
-推荐从 [Releases](https://github.com/imythu/dpull/releases/latest) 下载最新正式版，提供 Linux、
+推荐从 [Releases](https://github.com/aidever/dpull/releases/latest) 下载最新正式版，提供 Linux、
 Windows、macOS 的 amd64/arm64 预编译包及 SHA-256 校验文件。解压后即可使用，无需另外安装 crane；
 `dpull --version` 可查看版本。
 
 推送 `v*` 标签会自动测试并发布正式版；每次向 `master` 推送代码还会生成 Beta Pre-release。
 
 ```bash
-go install github.com/imythu/dpull@latest
+go install github.com/aidever/dpull@latest
 ```
 
 ## 编译
@@ -79,7 +79,7 @@ go install github.com/imythu/dpull@latest
 需要 Go 1.24 或更高版本：
 
 ```bash
-git clone https://github.com/imythu/dpull.git
+git clone https://github.com/aidever/dpull.git
 cd dpull
 go build -o dpull .
 ```
